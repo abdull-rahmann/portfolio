@@ -309,6 +309,7 @@ body.light-theme{
 }
 .home__img{
   width: 190px;
+  height: 483px; /* added*/
   
 }
 
@@ -910,6 +911,7 @@ color: var(--first-color);
   }
   .home__img{
     width: 290px;
+    height: 650px; /* added*/
   }
   .home__social-link{
     padding: .4rem;
