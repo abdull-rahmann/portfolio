@@ -261,7 +261,7 @@ body.light-theme{
 .nav__link{
   color: var(--text-color);
   font-size: 1.25rem;
-  padding: .2rem; /* .4 */
+  padding: .4rem; /* .4 */
   display: flex;
   border-radius: 5rem;
 }
@@ -308,8 +308,10 @@ body.light-theme{
   font-size: var(--biggest-font-size);
 }
 .home__img{
-  width: 160px;
+  width: 190px;
+  
 }
+
 .home__handle{
   justify-self: center;
   width: 190px;
@@ -488,6 +490,10 @@ color: var(--first-color);
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   padding-top: 1rem;
+}
+.services1__icon{
+  font-size: 4rem;
+  color: var(--first-color-alt);
 }
 .services__card{
   background-color: var(--container-color);
@@ -903,7 +909,7 @@ color: var(--first-color);
     height: 400px;
   }
   .home__img{
-    width: 220px;
+    width: 290px;
   }
   .home__social-link{
     padding: .4rem;
